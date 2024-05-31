@@ -6,4 +6,4 @@ module.exports = {
     './pages/**/*.{md,mdx}',
     './theme.config.tsx'
   ]
-}
+};
