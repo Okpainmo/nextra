@@ -107,9 +107,9 @@
     "styles/*"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "clean": "rimraf ./dist ./style.css",
-    "dev": "tsup --watch",
+    "dev": "node init && tsup --watch",
     "prepublishOnly": "pnpm build",
     "test": "vitest run",
     "types": "tsup --dts-only",
