@@ -42,4 +42,4 @@ export default withNextra({
     })
     return config
   }
-})
+});
