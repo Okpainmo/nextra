@@ -5,11 +5,11 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build": "next build",
+    "build": "node init && next build",
     "clean": "rimraf .next .turbo",
     "debug": "NODE_OPTIONS='--inspect' next dev",
-    "dev": "next",
-    "start": "next start"
+    "dev": "node init && next",
+    "start": "node init && next start"
   },
   "dependencies": {
     "focus-visible": "^5.1.0",
